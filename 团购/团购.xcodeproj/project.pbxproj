@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC6BB1091C11C85600CC5FA4 /* theTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6BB1071C11C85600CC5FA4 /* theTableViewCell.m */; };
+		CC6BB10A1C11C85600CC5FA4 /* theTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC6BB1081C11C85600CC5FA4 /* theTableViewCell.xib */; };
 		CCD78C801C107B67002C6BB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD78C7F1C107B67002C6BB1 /* main.m */; };
 		CCD78C831C107B67002C6BB1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD78C821C107B67002C6BB1 /* AppDelegate.m */; };
 		CCD78C861C107B67002C6BB1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD78C851C107B67002C6BB1 /* ViewController.m */; };
@@ -44,6 +46,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CC6BB1061C11C85600CC5FA4 /* theTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = theTableViewCell.h; sourceTree = "<group>"; };
+		CC6BB1071C11C85600CC5FA4 /* theTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = theTableViewCell.m; sourceTree = "<group>"; };
+		CC6BB1081C11C85600CC5FA4 /* theTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = theTableViewCell.xib; sourceTree = "<group>"; };
 		CCD78C7A1C107B67002C6BB1 /* 团购.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "团购.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCD78C7E1C107B67002C6BB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CCD78C7F1C107B67002C6BB1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -161,6 +166,8 @@
 			children = (
 				CCD78C841C107B67002C6BB1 /* ViewController.h */,
 				CCD78C851C107B67002C6BB1 /* ViewController.m */,
+				CC6BB1061C11C85600CC5FA4 /* theTableViewCell.h */,
+				CC6BB1071C11C85600CC5FA4 /* theTableViewCell.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -169,6 +176,7 @@
 			isa = PBXGroup;
 			children = (
 				CCD78C871C107B67002C6BB1 /* Main.storyboard */,
+				CC6BB1081C11C85600CC5FA4 /* theTableViewCell.xib */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -285,6 +293,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCD78CBD1C107BF4002C6BB1 /* icon_03.png in Resources */,
+				CC6BB10A1C11C85600CC5FA4 /* theTableViewCell.xib in Resources */,
 				CCD78CC81C107BF4002C6BB1 /* icon_14.png in Resources */,
 				CCD78CC71C107BF4002C6BB1 /* icon_13.png in Resources */,
 				CCD78CC91C107BF4002C6BB1 /* tgs.plist in Resources */,
@@ -323,6 +332,7 @@
 				CCD78C861C107B67002C6BB1 /* ViewController.m in Sources */,
 				CCD78C831C107B67002C6BB1 /* AppDelegate.m in Sources */,
 				CCD78C801C107B67002C6BB1 /* main.m in Sources */,
+				CC6BB1091C11C85600CC5FA4 /* theTableViewCell.m in Sources */,
 				CCD78CA81C107BC0002C6BB1 /* theModels.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -518,6 +528,7 @@
 				CCD78C9F1C107B67002C6BB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CCD78CA01C107B67002C6BB1 /* Build configuration list for PBXNativeTarget "团购Tests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +537,7 @@
 				CCD78CA21C107B67002C6BB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

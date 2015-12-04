@@ -8,6 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
+@class theModels;
+
 @interface theTableViewCell : UITableViewCell
+
+@property (weak, nonatomic) IBOutlet UILabel *theTitle;
+@property (weak, nonatomic) IBOutlet UILabel *thePrice;
+@property (weak, nonatomic) IBOutlet UILabel *theBuycount;
+@property (weak, nonatomic) IBOutlet UIImageView *theIcon;
+
+@property (nonatomic, strong) theModels *model;
 
 @end

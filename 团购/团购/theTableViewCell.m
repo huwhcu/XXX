@@ -8,7 +8,19 @@
 
 #import "theTableViewCell.h"
 
+#import "theModels.h"
+
 @implementation theTableViewCell
+
+- (void)setModel:(theModels *)model
+{
+    _model = model;
+    
+    _theTitle.text = model.title;
+    _thePrice.text = model.price;
+    _theBuycount.text = model.buycount;
+    _theIcon.image = [UIImage imageNamed:model.icon];
+}
 
 - (void)awakeFromNib {
     // Initialization code
