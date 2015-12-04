@@ -14,6 +14,7 @@
 		CC8697B41C1127E2005F20A3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC8697B31C1127E2005F20A3 /* Images.xcassets */; };
 		CC8697B71C1127E2005F20A3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC8697B51C1127E2005F20A3 /* LaunchScreen.xib */; };
 		CC8697C31C1127E2005F20A3 /* test_20151204_01Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC8697C21C1127E2005F20A3 /* test_20151204_01Tests.m */; };
+		CC8697CD1C11304D005F20A3 /* sortednames.plist in Resources */ = {isa = PBXBuildFile; fileRef = CC8697CC1C11304D005F20A3 /* sortednames.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		CC8697BC1C1127E2005F20A3 /* test-20151204-01Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "test-20151204-01Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC8697C11C1127E2005F20A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC8697C21C1127E2005F20A3 /* test_20151204_01Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test_20151204_01Tests.m; sourceTree = "<group>"; };
+		CC8697CC1C11304D005F20A3 /* sortednames.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = sortednames.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 		CC8697A61C1127E2005F20A3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CC8697CC1C11304D005F20A3 /* sortednames.plist */,
 				CC8697A71C1127E2005F20A3 /* Info.plist */,
 				CC8697A81C1127E2005F20A3 /* main.m */,
 			);
@@ -199,6 +202,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC8697CD1C11304D005F20A3 /* sortednames.plist in Resources */,
 				CC8697B21C1127E2005F20A3 /* Main.storyboard in Resources */,
 				CC8697B71C1127E2005F20A3 /* LaunchScreen.xib in Resources */,
 				CC8697B41C1127E2005F20A3 /* Images.xcassets in Resources */,
