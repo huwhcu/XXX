@@ -10,6 +10,9 @@
 
 @interface ViewController ()
 
+@property (weak, nonatomic) IBOutlet UITextField *testFeld;
+@property (weak, nonatomic) IBOutlet UIWebView *webView;
+
 @end
 
 @implementation ViewController
@@ -17,6 +20,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    [self loadWebView];
+}
+
+- (void)loadWebView
+{
+    NSURL *url = [NSURL URLWithString:_testFeld.text];
+    NSURLRequest *request = [NSURLRequest requestWithURL:url];
+    [_webView loadRequest:request];
 }
 
 - (void)didReceiveMemoryWarning {
