@@ -166,8 +166,6 @@
 			children = (
 				CCD78C841C107B67002C6BB1 /* ViewController.h */,
 				CCD78C851C107B67002C6BB1 /* ViewController.m */,
-				CC6BB1061C11C85600CC5FA4 /* theTableViewCell.h */,
-				CC6BB1071C11C85600CC5FA4 /* theTableViewCell.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -177,6 +175,8 @@
 			children = (
 				CCD78C871C107B67002C6BB1 /* Main.storyboard */,
 				CC6BB1081C11C85600CC5FA4 /* theTableViewCell.xib */,
+				CC6BB1061C11C85600CC5FA4 /* theTableViewCell.h */,
+				CC6BB1071C11C85600CC5FA4 /* theTableViewCell.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";

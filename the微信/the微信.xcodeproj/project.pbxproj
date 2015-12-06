@@ -78,6 +78,15 @@
 		CCC2B3D11C1406930016EC13 /* icon_13.png in Resources */ = {isa = PBXBuildFile; fileRef = CCC2B3911C1406930016EC13 /* icon_13.png */; };
 		CCC2B3D21C1406930016EC13 /* icon_14.png in Resources */ = {isa = PBXBuildFile; fileRef = CCC2B3921C1406930016EC13 /* icon_14.png */; };
 		CCC2B3D31C1406930016EC13 /* tgs.plist in Resources */ = {isa = PBXBuildFile; fileRef = CCC2B3931C1406930016EC13 /* tgs.plist */; };
+		CCC2B3E21C140F810016EC13 /* theTGModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC2B3E11C140F810016EC13 /* theTGModel.m */; };
+		CCC2B3E51C140FA50016EC13 /* theFriendsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC2B3E41C140FA50016EC13 /* theFriendsModel.m */; };
+		CCC2B3E81C14115F0016EC13 /* theFriendsGroupModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC2B3E71C14115F0016EC13 /* theFriendsGroupModel.m */; };
+		CCC2B3F11C141F120016EC13 /* theFriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC2B3F01C141F120016EC13 /* theFriendsViewController.m */; };
+		CCC2B3F41C141F1E0016EC13 /* theSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC2B3F31C141F1E0016EC13 /* theSettingViewController.m */; };
+		CCC2B3F81C1425690016EC13 /* theTGTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC2B3F61C1425690016EC13 /* theTGTableViewCell.m */; };
+		CCC2B3F91C1425690016EC13 /* theTGTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCC2B3F71C1425690016EC13 /* theTGTableViewCell.xib */; };
+		CCC2B3FC1C1431850016EC13 /* theTGScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC2B3FB1C1431850016EC13 /* theTGScrollView.m */; };
+		CCC2B3FE1C1433310016EC13 /* theTGScrollView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCC2B3FD1C1433310016EC13 /* theTGScrollView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -168,6 +177,22 @@
 		CCC2B3911C1406930016EC13 /* icon_13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_13.png; sourceTree = "<group>"; };
 		CCC2B3921C1406930016EC13 /* icon_14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_14.png; sourceTree = "<group>"; };
 		CCC2B3931C1406930016EC13 /* tgs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = tgs.plist; sourceTree = "<group>"; };
+		CCC2B3E01C140F810016EC13 /* theTGModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = theTGModel.h; sourceTree = "<group>"; };
+		CCC2B3E11C140F810016EC13 /* theTGModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = theTGModel.m; sourceTree = "<group>"; };
+		CCC2B3E31C140FA50016EC13 /* theFriendsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = theFriendsModel.h; sourceTree = "<group>"; };
+		CCC2B3E41C140FA50016EC13 /* theFriendsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = theFriendsModel.m; sourceTree = "<group>"; };
+		CCC2B3E61C14115F0016EC13 /* theFriendsGroupModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = theFriendsGroupModel.h; sourceTree = "<group>"; };
+		CCC2B3E71C14115F0016EC13 /* theFriendsGroupModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = theFriendsGroupModel.m; sourceTree = "<group>"; };
+		CCC2B3EF1C141F120016EC13 /* theFriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = theFriendsViewController.h; sourceTree = "<group>"; };
+		CCC2B3F01C141F120016EC13 /* theFriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = theFriendsViewController.m; sourceTree = "<group>"; };
+		CCC2B3F21C141F1E0016EC13 /* theSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = theSettingViewController.h; sourceTree = "<group>"; };
+		CCC2B3F31C141F1E0016EC13 /* theSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = theSettingViewController.m; sourceTree = "<group>"; };
+		CCC2B3F51C1425690016EC13 /* theTGTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = theTGTableViewCell.h; sourceTree = "<group>"; };
+		CCC2B3F61C1425690016EC13 /* theTGTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = theTGTableViewCell.m; sourceTree = "<group>"; };
+		CCC2B3F71C1425690016EC13 /* theTGTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = theTGTableViewCell.xib; sourceTree = "<group>"; };
+		CCC2B3FA1C1431850016EC13 /* theTGScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = theTGScrollView.h; sourceTree = "<group>"; };
+		CCC2B3FB1C1431850016EC13 /* theTGScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = theTGScrollView.m; sourceTree = "<group>"; };
+		CCC2B3FD1C1433310016EC13 /* theTGScrollView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = theTGScrollView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -259,6 +284,10 @@
 			children = (
 				CCC2B32D1C1404D10016EC13 /* ViewController.h */,
 				CCC2B32E1C1404D10016EC13 /* ViewController.m */,
+				CCC2B3EF1C141F120016EC13 /* theFriendsViewController.h */,
+				CCC2B3F01C141F120016EC13 /* theFriendsViewController.m */,
+				CCC2B3F21C141F1E0016EC13 /* theSettingViewController.h */,
+				CCC2B3F31C141F1E0016EC13 /* theSettingViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -267,6 +296,12 @@
 			isa = PBXGroup;
 			children = (
 				CCC2B3301C1404D10016EC13 /* Main.storyboard */,
+				CCC2B3F51C1425690016EC13 /* theTGTableViewCell.h */,
+				CCC2B3F61C1425690016EC13 /* theTGTableViewCell.m */,
+				CCC2B3F71C1425690016EC13 /* theTGTableViewCell.xib */,
+				CCC2B3FA1C1431850016EC13 /* theTGScrollView.h */,
+				CCC2B3FB1C1431850016EC13 /* theTGScrollView.m */,
+				CCC2B3FD1C1433310016EC13 /* theTGScrollView.xib */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -274,6 +309,12 @@
 		CCC2B34E1C14065E0016EC13 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				CCC2B3E01C140F810016EC13 /* theTGModel.h */,
+				CCC2B3E11C140F810016EC13 /* theTGModel.m */,
+				CCC2B3E31C140FA50016EC13 /* theFriendsModel.h */,
+				CCC2B3E41C140FA50016EC13 /* theFriendsModel.m */,
+				CCC2B3E61C14115F0016EC13 /* theFriendsGroupModel.h */,
+				CCC2B3E71C14115F0016EC13 /* theFriendsGroupModel.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -480,6 +521,7 @@
 				CCC2B3CD1C1406930016EC13 /* icon_09.png in Resources */,
 				CCC2B3AA1C1406930016EC13 /* MoreMyAlbum@3x.png in Resources */,
 				CCC2B3A71C1406930016EC13 /* MoreExpressionShops@3x.png in Resources */,
+				CCC2B3FE1C1433310016EC13 /* theTGScrollView.xib in Resources */,
 				CCC2B3D31C1406930016EC13 /* tgs.plist in Resources */,
 				CCC2B3CC1C1406930016EC13 /* icon_08.png in Resources */,
 				CCC2B3C91C1406930016EC13 /* icon_05.png in Resources */,
@@ -505,6 +547,7 @@
 				CCC2B39D1C1406930016EC13 /* 005.png in Resources */,
 				CCC2B3CA1C1406930016EC13 /* icon_06.png in Resources */,
 				CCC2B3B51C1406930016EC13 /* tabbar_contactsHL@2x.png in Resources */,
+				CCC2B3F91C1425690016EC13 /* theTGTableViewCell.xib in Resources */,
 				CCC2B3371C1404D10016EC13 /* LaunchScreen.xib in Resources */,
 				CCC2B3BE1C1406930016EC13 /* tabbar_mainframeHL@3x.png in Resources */,
 				CCC2B3B81C1406930016EC13 /* tabbar_discover@3x.png in Resources */,
@@ -539,8 +582,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCC2B3F11C141F120016EC13 /* theFriendsViewController.m in Sources */,
 				CCC2B32F1C1404D10016EC13 /* ViewController.m in Sources */,
+				CCC2B3F41C141F1E0016EC13 /* theSettingViewController.m in Sources */,
 				CCC2B32C1C1404D10016EC13 /* AppDelegate.m in Sources */,
+				CCC2B3E81C14115F0016EC13 /* theFriendsGroupModel.m in Sources */,
+				CCC2B3F81C1425690016EC13 /* theTGTableViewCell.m in Sources */,
+				CCC2B3E51C140FA50016EC13 /* theFriendsModel.m in Sources */,
+				CCC2B3E21C140F810016EC13 /* theTGModel.m in Sources */,
+				CCC2B3FC1C1431850016EC13 /* theTGScrollView.m in Sources */,
 				CCC2B3291C1404D10016EC13 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
