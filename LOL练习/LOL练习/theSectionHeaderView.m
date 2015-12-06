@@ -17,9 +17,9 @@
 
 @end
 
-static NSString *headerViewIdentifier = @"headerView";
-
 @implementation theSectionHeaderView
+
+static NSString *headerViewIdentifier = @"headerView";
 
 + (instancetype)sectionHeaderViewForTableView:(UITableView *)tableView
 {
@@ -96,7 +96,7 @@ static NSString *headerViewIdentifier = @"headerView";
     _label.text = [NSString stringWithFormat:@"%ld/%ld", friendsGroup.online, friendsGroup.friends.count];
     
     if (_friendsGroup.isopen) {
-        _bgBtn.imageView.transform = CGAffineTransformMakeRotation(M_2_PI);
+        _bgBtn.imageView.transform = CGAffineTransformMakeRotation(M_PI_2);
     } else {
         _bgBtn.imageView.transform = CGAffineTransformIdentity;
     }
