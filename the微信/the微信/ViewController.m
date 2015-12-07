@@ -27,8 +27,8 @@ static NSString *theTGIdentifier = @"TGCell";
 - (NSArray *)theTGDataArray
 {
     if (_theTGData == nil) {
-        NSString *path = [[NSBundle mainBundle] pathForResource:@"tgs" ofType:@"plist"];
-        NSArray *theArray = [NSArray arrayWithContentsOfFile:path];
+        NSString *pathTG = [[NSBundle mainBundle] pathForResource:@"tgs" ofType:@"plist"];
+        NSArray *theArray = [NSArray arrayWithContentsOfFile:pathTG];
         
         NSMutableArray *theModel = [[NSMutableArray alloc] init];
         

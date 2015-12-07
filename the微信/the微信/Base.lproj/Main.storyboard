@@ -27,7 +27,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="团购" image="tabbar_mainframe.png" id="emZ-Tj-9Ol"/>
+                    <tabBarItem key="tabBarItem" title="团购" image="tabbar_mainframeHL.png" id="emZ-Tj-9Ol"/>
                     <navigationItem key="navigationItem" id="iin-bG-iV3"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
@@ -41,7 +41,7 @@
         <!--通讯录-->
         <scene sceneID="qLm-Sh-89d">
             <objects>
-                <viewController id="91i-O5-5q0" customClass="theSettingViewController" sceneMemberID="viewController">
+                <viewController id="91i-O5-5q0" customClass="theFriendsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="8oQ-OQ-yjE"/>
                         <viewControllerLayoutGuide type="bottom" id="Yjm-Q3-GdM"/>
@@ -49,11 +49,24 @@
                     <view key="view" contentMode="scaleToFill" id="8WG-4n-3RE">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="rI0-Om-QNn">
+                                <rect key="frame" x="0.0" y="20" width="375" height="598"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="91i-O5-5q0" id="puD-s7-QYG"/>
+                                    <outlet property="delegate" destination="91i-O5-5q0" id="lbS-Nf-kRN"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="通讯录" image="tabbar_contacts.png" id="7Ew-6x-AOV"/>
+                    <tabBarItem key="tabBarItem" title="通讯录" image="tabbar_contactsHL.png" id="7Ew-6x-AOV"/>
                     <navigationItem key="navigationItem" id="PHh-Gd-5d3"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="theFriendsTabelView" destination="rI0-Om-QNn" id="yes-Oh-Ry2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dxt-Eh-lTH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -62,7 +75,7 @@
         <!--设置-->
         <scene sceneID="ty5-7k-ggx">
             <objects>
-                <viewController id="3I0-ZX-Go4" customClass="theFriendsViewController" sceneMemberID="viewController">
+                <viewController id="3I0-ZX-Go4" customClass="theSettingViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Hv3-ip-fmq"/>
                         <viewControllerLayoutGuide type="bottom" id="pfx-wz-bMB"/>
@@ -70,11 +83,24 @@
                     <view key="view" contentMode="scaleToFill" id="DLA-jZ-1hi">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="ZyW-5z-wb9">
+                                <rect key="frame" x="0.0" y="20" width="375" height="598"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="3I0-ZX-Go4" id="mQM-ZY-iFG"/>
+                                    <outlet property="delegate" destination="3I0-ZX-Go4" id="ymJ-XE-4RI"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="设置" image="tabbar_me.png" id="GCp-V4-xST"/>
+                    <tabBarItem key="tabBarItem" title="设置" image="tabbar_meHL.png" id="GCp-V4-xST"/>
                     <navigationItem key="navigationItem" id="NVW-ew-sJG"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="theSettingTableView" destination="ZyW-5z-wb9" id="FxA-96-SmA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="n34-Iy-n6I" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -103,8 +129,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="tabbar_contacts.png" width="27" height="23"/>
-        <image name="tabbar_mainframe.png" width="25" height="23"/>
-        <image name="tabbar_me.png" width="23" height="23"/>
+        <image name="tabbar_contactsHL.png" width="27" height="23"/>
+        <image name="tabbar_mainframeHL.png" width="25" height="23"/>
+        <image name="tabbar_meHL.png" width="23" height="23"/>
     </resources>
 </document>

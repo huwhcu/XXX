@@ -8,7 +8,9 @@
 
 #import "theFriendsViewController.h"
 
-@interface theFriendsViewController ()
+@interface theFriendsViewController () <UITableViewDataSource, UITableViewDelegate>
+
+@property (weak, nonatomic) IBOutlet UITableView *theFriendsTabelView;
 
 @end
 
