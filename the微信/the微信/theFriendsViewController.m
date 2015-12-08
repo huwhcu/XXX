@@ -8,13 +8,39 @@
 
 #import "theFriendsViewController.h"
 
+#import "theFriendsModel.h"
+
 @interface theFriendsViewController () <UITableViewDataSource, UITableViewDelegate>
 
 @property (weak, nonatomic) IBOutlet UITableView *theFriendsTabelView;
+@property (nonatomic, strong) NSArray *theFriendsData;
 
 @end
 
 @implementation theFriendsViewController
+
+static NSString *theFriendsIdentifier = @"FriendsCell";
+
+#pragma mark - 模型转换
+
+- (NSArray *)theFriendsDataArray
+{
+    if (_theFriendsData == nil) {
+        NSString *pathFriends = [[NSBundle mainBundle] pathForResource:@"friends" ofType:@"plist"];
+        NSArray *friendsArray = [NSArray arrayWithContentsOfFile:pathFriends];
+        
+        NSMutableArray *friendsModel = [[NSMutableArray alloc] init];
+        
+        for (NSDictionary *dictFriends in friendsArray) {
+            theFriendsModel *friendsModels = [theFriendsModel theFriendsModelForDict:dictFriends];
+            [friendsModel addObject:friendsModels];
+        }
+        _theFriendsData = friendsModel;
+    }
+    return _theFriendsData;
+}
+
+#pragma mark - 数据源
 
 - (void)viewDidLoad {
     [super viewDidLoad];
