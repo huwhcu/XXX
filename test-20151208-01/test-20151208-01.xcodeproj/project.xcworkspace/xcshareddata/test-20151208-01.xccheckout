@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>D7E763A1-378A-43B6-AC74-E9C9ADC001AE</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>test-20151208-01</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>FEE73BB30728F6693CD1213BA4A55DB503F55468</key>
 		<string>https://github.com/huwhcu/XXX.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>test-20151208-01/test-20151208-01.xcodeproj/project.xcworkspace</string>
+	<string>test-20151208-01/test-20151208-01.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>FEE73BB30728F6693CD1213BA4A55DB503F55468</key>
