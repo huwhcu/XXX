@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>2B5343EF-5F9D-4603-AF2B-E262176BC523</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>微信test</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>FEE73BB30728F6693CD1213BA4A55DB503F55468</key>
 		<string>https://github.com/huwhcu/XXX.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>微信test/微信test.xcodeproj/project.xcworkspace</string>
+	<string>微信test/微信test.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>FEE73BB30728F6693CD1213BA4A55DB503F55468</key>
