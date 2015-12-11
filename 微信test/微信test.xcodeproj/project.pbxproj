@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC2E0ABC1C1B01B400F93D00 /* theTGModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2E0ABB1C1B01B400F93D00 /* theTGModel.m */; };
+		CC2E0AC51C1B033800F93D00 /* theTGTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2E0AC31C1B033800F93D00 /* theTGTableViewCell.m */; };
+		CC2E0AC61C1B033800F93D00 /* theTGTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC2E0AC41C1B033800F93D00 /* theTGTableViewCell.xib */; };
 		CCF1A4111C185D4F002420DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF1A4101C185D4F002420DF /* main.m */; };
 		CCF1A4141C185D4F002420DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF1A4131C185D4F002420DF /* AppDelegate.m */; };
 		CCF1A4171C185D50002420DF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF1A4161C185D50002420DF /* ViewController.m */; };
@@ -88,6 +91,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CC2E0ABA1C1B01B400F93D00 /* theTGModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = theTGModel.h; sourceTree = "<group>"; };
+		CC2E0ABB1C1B01B400F93D00 /* theTGModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = theTGModel.m; sourceTree = "<group>"; };
+		CC2E0AC21C1B033800F93D00 /* theTGTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = theTGTableViewCell.h; sourceTree = "<group>"; };
+		CC2E0AC31C1B033800F93D00 /* theTGTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = theTGTableViewCell.m; sourceTree = "<group>"; };
+		CC2E0AC41C1B033800F93D00 /* theTGTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = theTGTableViewCell.xib; sourceTree = "<group>"; };
 		CCF1A40B1C185D4F002420DF /* 微信test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "微信test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCF1A40F1C185D4F002420DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CCF1A4101C185D4F002420DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -260,6 +268,9 @@
 			isa = PBXGroup;
 			children = (
 				CCF1A4181C185D50002420DF /* Main.storyboard */,
+				CC2E0AC21C1B033800F93D00 /* theTGTableViewCell.h */,
+				CC2E0AC31C1B033800F93D00 /* theTGTableViewCell.m */,
+				CC2E0AC41C1B033800F93D00 /* theTGTableViewCell.xib */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -267,6 +278,8 @@
 		CCF1A4361C185DB0002420DF /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				CC2E0ABA1C1B01B400F93D00 /* theTGModel.h */,
+				CC2E0ABB1C1B01B400F93D00 /* theTGModel.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -497,6 +510,7 @@
 				CCF1A4B01C185FC0002420DF /* icon_11.png in Resources */,
 				CCF1A49D1C185FC0002420DF /* tabbar_mainframe@3x.png in Resources */,
 				CCF1A4901C185FC0002420DF /* MoreMyFavorites@2x.png in Resources */,
+				CC2E0AC61C1B033800F93D00 /* theTGTableViewCell.xib in Resources */,
 				CCF1A4AA1C185FC0002420DF /* icon_05.png in Resources */,
 				CCF1A4A41C185FC0002420DF /* tabbarBkg@2x.png in Resources */,
 				CCF1A4991C185FC0002420DF /* tabbar_discover@3x.png in Resources */,
@@ -519,8 +533,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC2E0ABC1C1B01B400F93D00 /* theTGModel.m in Sources */,
 				CCF1A4171C185D50002420DF /* ViewController.m in Sources */,
 				CCF1A4141C185D4F002420DF /* AppDelegate.m in Sources */,
+				CC2E0AC51C1B033800F93D00 /* theTGTableViewCell.m in Sources */,
 				CCF1A4111C185D4F002420DF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -716,6 +732,7 @@
 				CCF1A4301C185D50002420DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CCF1A4311C185D50002420DF /* Build configuration list for PBXNativeTarget "微信testTests" */ = {
 			isa = XCConfigurationList;
@@ -724,6 +741,7 @@
 				CCF1A4331C185D50002420DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
