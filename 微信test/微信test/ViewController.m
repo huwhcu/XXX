@@ -13,7 +13,7 @@
 
 @interface ViewController () <UITableViewDataSource, UITableViewDelegate, UIScrollViewDelegate>
 
-@property (nonatomic, strong) NSArray *theTGData;
+@property (nonatomic, strong) NSMutableArray *theTGData;
 @property (weak, nonatomic) IBOutlet UITableView *theTGTableView;
 
 @end
@@ -30,13 +30,11 @@ static NSString *theTGIdentifier = @"TGCell";
         NSString *pathTG = [[NSBundle mainBundle] pathForResource:@"tgs" ofType:@"plist"];
         NSArray *theArray = [NSArray arrayWithContentsOfFile:pathTG];
         
-        NSMutableArray *theModel = [[NSMutableArray alloc] init];
-        
+        _theTGData = [NSMutableArray array];
         for (NSDictionary *dict in theArray) {
             theTGModel *model = [theTGModel theTGModelForDict:dict];
-            [theModel addObject:model];
+            [_theTGData addObject:model];
         }
-        _theTGData = theModel;
     }
     return _theTGData;
 }
@@ -62,12 +60,55 @@ static NSString *theTGIdentifier = @"TGCell";
     return cell;
 }
 
+#pragma mark - 表头设置
+
+- (void)addSubViewsForTable:(UITableView *)tableView{
+    UIScrollView *scrollerView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 0, 0, 100)];
+    scrollerView.contentSize = CGSizeMake([UIScreen mainScreen].bounds.size.width * 3, 100);
+    scrollerView.pagingEnabled = YES;
+    scrollerView.showsHorizontalScrollIndicator = NO;
+    
+    for (int i = 0; i < 3; i++) {
+        UIImageView *imgView = [[UIImageView alloc] initWithFrame:CGRectMake([UIScreen mainScreen].bounds.size.width * i, 0, [UIScreen mainScreen].bounds.size.width, 100)];
+        NSString *imgName = [NSString stringWithFormat:@"new_feature_%d", i + 1];
+        imgView.image = [UIImage imageNamed:imgName];
+        [scrollerView addSubview:imgView];
+    }
+    tableView.tableHeaderView = scrollerView;
+}
+
+#pragma mark - 编辑：删除
+
+- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath{
+    return YES;
+}
+- (UITableViewCellEditingStyle)tableView:(UITableView *)tableView editingStyleForRowAtIndexPath:(NSIndexPath *)indexPath{
+    return UITableViewCellEditingStyleDelete;
+}
+- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath{
+    if (editingStyle == UITableViewCellEditingStyleDelete) {
+        [_theTGData removeObjectAtIndex:indexPath.row];
+        [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
+    } else if (editingStyle == UITableViewCellEditingStyleInsert){
+        
+    }
+}
+//- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(nonnull NSIndexPath *)sourceIndexPath toIndexPath:(nonnull NSIndexPath *)destinationIndexPath{
+//    theTGModel *model = (theTGModel *)_theTGData[]
+//}
+- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath{
+    theTGModel *model = (theTGModel *)_theTGData[fromIndexPath.row];
+    [_theTGData removeObjectAtIndex:fromIndexPath.row];
+    [_theTGData insertObject:model atIndex:toIndexPath.row];
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
     _theTGTableView.rowHeight = 100;
     _theTGTableView.separatorStyle = UITableViewCellSeparatorStyleSingleLine;
+    [self addSubViewsForTable:_theTGTableView];
 }
 
 - (void)didReceiveMemoryWarning {

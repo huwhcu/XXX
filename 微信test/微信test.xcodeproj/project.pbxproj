@@ -10,6 +10,10 @@
 		CC2E0ABC1C1B01B400F93D00 /* theTGModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2E0ABB1C1B01B400F93D00 /* theTGModel.m */; };
 		CC2E0AC51C1B033800F93D00 /* theTGTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2E0AC31C1B033800F93D00 /* theTGTableViewCell.m */; };
 		CC2E0AC61C1B033800F93D00 /* theTGTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC2E0AC41C1B033800F93D00 /* theTGTableViewCell.xib */; };
+		CCAEAE6B1C1EE327005ECD53 /* theFriendsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CCAEAE6A1C1EE327005ECD53 /* theFriendsModel.m */; };
+		CCAEAE701C1EE69C005ECD53 /* new_feature_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCAEAE6D1C1EE69C005ECD53 /* new_feature_1@2x.png */; };
+		CCAEAE711C1EE69C005ECD53 /* new_feature_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCAEAE6E1C1EE69C005ECD53 /* new_feature_2@2x.png */; };
+		CCAEAE721C1EE69C005ECD53 /* new_feature_3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCAEAE6F1C1EE69C005ECD53 /* new_feature_3@2x.png */; };
 		CCF1A4111C185D4F002420DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF1A4101C185D4F002420DF /* main.m */; };
 		CCF1A4141C185D4F002420DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF1A4131C185D4F002420DF /* AppDelegate.m */; };
 		CCF1A4171C185D50002420DF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF1A4161C185D50002420DF /* ViewController.m */; };
@@ -96,6 +100,11 @@
 		CC2E0AC21C1B033800F93D00 /* theTGTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = theTGTableViewCell.h; sourceTree = "<group>"; };
 		CC2E0AC31C1B033800F93D00 /* theTGTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = theTGTableViewCell.m; sourceTree = "<group>"; };
 		CC2E0AC41C1B033800F93D00 /* theTGTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = theTGTableViewCell.xib; sourceTree = "<group>"; };
+		CCAEAE691C1EE327005ECD53 /* theFriendsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = theFriendsModel.h; sourceTree = "<group>"; };
+		CCAEAE6A1C1EE327005ECD53 /* theFriendsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = theFriendsModel.m; sourceTree = "<group>"; };
+		CCAEAE6D1C1EE69C005ECD53 /* new_feature_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new_feature_1@2x.png"; sourceTree = "<group>"; };
+		CCAEAE6E1C1EE69C005ECD53 /* new_feature_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new_feature_2@2x.png"; sourceTree = "<group>"; };
+		CCAEAE6F1C1EE69C005ECD53 /* new_feature_3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new_feature_3@2x.png"; sourceTree = "<group>"; };
 		CCF1A40B1C185D4F002420DF /* 微信test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "微信test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCF1A40F1C185D4F002420DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CCF1A4101C185D4F002420DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -190,6 +199,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CCAEAE6C1C1EE69C005ECD53 /* materials */ = {
+			isa = PBXGroup;
+			children = (
+				CCAEAE6D1C1EE69C005ECD53 /* new_feature_1@2x.png */,
+				CCAEAE6E1C1EE69C005ECD53 /* new_feature_2@2x.png */,
+				CCAEAE6F1C1EE69C005ECD53 /* new_feature_3@2x.png */,
+			);
+			path = materials;
+			sourceTree = "<group>";
+		};
 		CCF1A4021C185D4F002420DF = {
 			isa = PBXGroup;
 			children = (
@@ -224,6 +243,7 @@
 		CCF1A40E1C185D4F002420DF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CCAEAE6C1C1EE69C005ECD53 /* materials */,
 				CCF1A4381C185FC0002420DF /* QQ好友 */,
 				CCF1A4461C185FC0002420DF /* setting */,
 				CCF1A4551C185FC0002420DF /* tabbar */,
@@ -280,6 +300,8 @@
 			children = (
 				CC2E0ABA1C1B01B400F93D00 /* theTGModel.h */,
 				CC2E0ABB1C1B01B400F93D00 /* theTGModel.m */,
+				CCAEAE691C1EE327005ECD53 /* theFriendsModel.h */,
+				CCAEAE6A1C1EE327005ECD53 /* theFriendsModel.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -479,6 +501,7 @@
 				CCF1A48F1C185FC0002420DF /* MoreMyFavorites.png in Resources */,
 				CCF1A4B21C185FC0002420DF /* icon_13.png in Resources */,
 				CCF1A47C1C185FC0002420DF /* 003.png in Resources */,
+				CCAEAE711C1EE69C005ECD53 /* new_feature_2@2x.png in Resources */,
 				CCF1A4AD1C185FC0002420DF /* icon_08.png in Resources */,
 				CCF1A4781C185FC0002420DF /* friends.plist in Resources */,
 				CCF1A4821C185FC0002420DF /* 009.png in Resources */,
@@ -490,9 +513,11 @@
 				CCF1A47F1C185FC0002420DF /* 006.png in Resources */,
 				CCF1A49A1C185FC0002420DF /* tabbar_discoverHL@2x.png in Resources */,
 				CCF1A4811C185FC0002420DF /* 008.png in Resources */,
+				CCAEAE721C1EE69C005ECD53 /* new_feature_3@2x.png in Resources */,
 				CCF1A41C1C185D50002420DF /* Images.xcassets in Resources */,
 				CCF1A4871C185FC0002420DF /* MoreExpressionShops@2x.png in Resources */,
 				CCF1A49E1C185FC0002420DF /* tabbar_mainframeHL@2x.png in Resources */,
+				CCAEAE701C1EE69C005ECD53 /* new_feature_1@2x.png in Resources */,
 				CCF1A48B1C185FC0002420DF /* MoreMyAlbum@3x.png in Resources */,
 				CCF1A4961C185FC0002420DF /* tabbar_contactsHL@2x.png in Resources */,
 				CCF1A49C1C185FC0002420DF /* tabbar_mainframe@2x.png in Resources */,
@@ -536,6 +561,7 @@
 				CC2E0ABC1C1B01B400F93D00 /* theTGModel.m in Sources */,
 				CCF1A4171C185D50002420DF /* ViewController.m in Sources */,
 				CCF1A4141C185D4F002420DF /* AppDelegate.m in Sources */,
+				CCAEAE6B1C1EE327005ECD53 /* theFriendsModel.m in Sources */,
 				CC2E0AC51C1B033800F93D00 /* theTGTableViewCell.m in Sources */,
 				CCF1A4111C185D4F002420DF /* main.m in Sources */,
 			);
