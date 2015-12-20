@@ -24,7 +24,7 @@ static NSString *theTGIdentifier = @"TGCell";
 
 #pragma mark - TG的模型转换
 
-- (NSArray *)theTGDataArray
+- (NSMutableArray *)theTGDataArray
 {
     if (_theTGData == nil) {
         NSString *pathTG = [[NSBundle mainBundle] pathForResource:@"tgs" ofType:@"plist"];
@@ -93,13 +93,25 @@ static NSString *theTGIdentifier = @"TGCell";
         
     }
 }
-//- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(nonnull NSIndexPath *)sourceIndexPath toIndexPath:(nonnull NSIndexPath *)destinationIndexPath{
-//    theTGModel *model = (theTGModel *)_theTGData[]
-//}
+
 - (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath{
     theTGModel *model = (theTGModel *)_theTGData[fromIndexPath.row];
     [_theTGData removeObjectAtIndex:fromIndexPath.row];
     [_theTGData insertObject:model atIndex:toIndexPath.row];
+}
+
+- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath {
+    return YES;
+}
+
+- (IBAction)editItemClick:(UIBarButtonItem *)sender {
+    if ([sender.title isEqualToString:@"编辑"]) {
+        sender.title = @"完成";
+        [_theTGTableView setEditing:YES animated:YES];
+    } else {
+        sender.title = @"编辑";
+        [_theTGTableView setEditing:NO animated:YES];
+    }
 }
 
 - (void)viewDidLoad {

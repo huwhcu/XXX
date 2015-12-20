@@ -13,7 +13,7 @@
 @property (nonatomic, strong) NSString *name;
 @property (nonatomic, strong) NSString *icon;
 @property (nonatomic, strong) NSString *status;
-@property (nonatomic) BOOL *vip;
+@property (nonatomic, assign) BOOL vip;
 
 - (instancetype)initWithDict:(NSDictionary *)dict;
 + (instancetype)theFriendsWithDict:(NSDictionary *)dict;
