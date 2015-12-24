@@ -23,7 +23,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    _array = @[@"CRAWViewController"];
+    _array = @[@"CRAWViewController", @"theTestViewController"];
     
     UITableView *theTableView = [[UITableView alloc] initWithFrame:self.view.frame style:UITableViewStylePlain];
     theTableView.dataSource = self;
@@ -48,7 +48,7 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     NSString *className = _array[indexPath.row];
-    UIViewController * controller = [[NSClassFromString(className) alloc] init];
+    UIViewController *controller= [[NSClassFromString(className) alloc] init];
     [self.navigationController pushViewController:controller animated:YES];
 }
 
