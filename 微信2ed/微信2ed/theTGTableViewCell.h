@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+@class theTGModels;
+
 @interface theTGTableViewCell : UITableViewCell
+
+@property (nonatomic, strong) theTGModels *tgModel;
 
 @end

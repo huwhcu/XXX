@@ -10,4 +10,6 @@
 
 @interface theWebViewController : UIViewController
 
+@property (nonatomic, strong) NSString *urlStr;
+
 @end

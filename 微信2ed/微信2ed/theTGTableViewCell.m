@@ -8,7 +8,27 @@
 
 #import "theTGTableViewCell.h"
 
+#import "theTGModels.h"
+
+@interface theTGTableViewCell ()
+
+@property (weak, nonatomic) IBOutlet UIImageView *theIcon;
+@property (weak, nonatomic) IBOutlet UILabel *theTitle;
+@property (weak, nonatomic) IBOutlet UILabel *thePrice;
+@property (weak, nonatomic) IBOutlet UILabel *theBuycount;
+
+@end
+
 @implementation theTGTableViewCell
+
+- (void)setModel:(theTGModels *)tgModel {
+    _tgModel = tgModel;
+    
+    _theIcon.image = [UIImage imageNamed:tgModel.icon];
+    _theTitle.text = tgModel.title;
+    _thePrice.text = tgModel.price;
+    _theBuycount.text = tgModel.buycount;
+}
 
 - (void)awakeFromNib {
     // Initialization code

@@ -10,4 +10,12 @@
 
 @interface theTGModels : NSObject
 
+@property (nonatomic, strong) NSString *title;
+@property (nonatomic, strong) NSString *buycount;
+@property (nonatomic, strong) NSString *price;
+@property (nonatomic, strong) NSString *icon;
+
+- (instancetype)initWithDict:(NSDictionary *)dict;
++ (instancetype)tgModelWithDict:(NSDictionary *)dict;
+
 @end
