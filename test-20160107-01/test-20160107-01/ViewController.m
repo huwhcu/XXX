@@ -14,9 +14,15 @@
 
 @implementation ViewController
 
+- (void)drawRect:(CGRect)rect {
+    CGContextRef context = UIGraphicsGetCurrentContext();
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    [self ]
 }
 
 - (void)didReceiveMemoryWarning {

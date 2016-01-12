@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC35E0CB1C42808800A1B784 /* theMessageCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC35E0C91C42808800A1B784 /* theMessageCollectionViewCell.m */; };
+		CC35E0CC1C42808800A1B784 /* theMessageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC35E0CA1C42808800A1B784 /* theMessageCollectionViewCell.xib */; };
 		CC9D76EF1C425F670042606C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9D76EE1C425F670042606C /* main.m */; };
 		CC9D76F21C425F670042606C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9D76F11C425F670042606C /* AppDelegate.m */; };
 		CC9D76F51C425F670042606C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9D76F41C425F670042606C /* ViewController.m */; };
@@ -16,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CC35E0C81C42808800A1B784 /* theMessageCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = theMessageCollectionViewCell.h; sourceTree = "<group>"; };
+		CC35E0C91C42808800A1B784 /* theMessageCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = theMessageCollectionViewCell.m; sourceTree = "<group>"; };
+		CC35E0CA1C42808800A1B784 /* theMessageCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = theMessageCollectionViewCell.xib; sourceTree = "<group>"; };
 		CC9D76EA1C425F670042606C /* 果壳.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "果壳.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC9D76EE1C425F670042606C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CC9D76F01C425F670042606C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -58,14 +63,9 @@
 		CC9D76EC1C425F670042606C /* 果壳 */ = {
 			isa = PBXGroup;
 			children = (
-				CC9D76F01C425F670042606C /* AppDelegate.h */,
-				CC9D76F11C425F670042606C /* AppDelegate.m */,
-				CC9D76F31C425F670042606C /* ViewController.h */,
-				CC9D76F41C425F670042606C /* ViewController.m */,
-				CC9D76F61C425F670042606C /* Main.storyboard */,
-				CC9D76F91C425F670042606C /* Assets.xcassets */,
-				CC9D76FB1C425F670042606C /* LaunchScreen.storyboard */,
-				CC9D76FE1C425F670042606C /* Info.plist */,
+				CC9D77061C425F8A0042606C /* Models */,
+				CC9D77051C425F850042606C /* Views */,
+				CC9D77041C425F7A0042606C /* Controllers */,
 				CC9D76ED1C425F670042606C /* Supporting Files */,
 			);
 			path = "果壳";
@@ -74,9 +74,41 @@
 		CC9D76ED1C425F670042606C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CC9D76F01C425F670042606C /* AppDelegate.h */,
+				CC9D76F11C425F670042606C /* AppDelegate.m */,
+				CC9D76F91C425F670042606C /* Assets.xcassets */,
+				CC9D76FB1C425F670042606C /* LaunchScreen.storyboard */,
+				CC9D76FE1C425F670042606C /* Info.plist */,
 				CC9D76EE1C425F670042606C /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC9D77041C425F7A0042606C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CC9D76F31C425F670042606C /* ViewController.h */,
+				CC9D76F41C425F670042606C /* ViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		CC9D77051C425F850042606C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CC9D76F61C425F670042606C /* Main.storyboard */,
+				CC35E0C81C42808800A1B784 /* theMessageCollectionViewCell.h */,
+				CC35E0C91C42808800A1B784 /* theMessageCollectionViewCell.m */,
+				CC35E0CA1C42808800A1B784 /* theMessageCollectionViewCell.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		CC9D77061C425F8A0042606C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +168,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC35E0CC1C42808800A1B784 /* theMessageCollectionViewCell.xib in Resources */,
 				CC9D76FD1C425F670042606C /* LaunchScreen.storyboard in Resources */,
 				CC9D76FA1C425F670042606C /* Assets.xcassets in Resources */,
 				CC9D76F81C425F670042606C /* Main.storyboard in Resources */,
@@ -151,6 +184,7 @@
 			files = (
 				CC9D76F51C425F670042606C /* ViewController.m in Sources */,
 				CC9D76F21C425F670042606C /* AppDelegate.m in Sources */,
+				CC35E0CB1C42808800A1B784 /* theMessageCollectionViewCell.m in Sources */,
 				CC9D76EF1C425F670042606C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,10 +295,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: dorayo student (93QF9C8P8D)";
 				INFOPLIST_FILE = "果壳/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.qy15092.--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "dc360d11-a976-49c8-8f81-a02746935eec";
 			};
 			name = Debug;
 		};
@@ -272,10 +309,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: dorayo student (93QF9C8P8D)";
 				INFOPLIST_FILE = "果壳/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.qy15092.--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "dc360d11-a976-49c8-8f81-a02746935eec";
 			};
 			name = Release;
 		};
@@ -298,6 +338,7 @@
 				CC9D77031C425F670042606C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

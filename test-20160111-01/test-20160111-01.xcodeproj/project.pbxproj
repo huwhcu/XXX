@@ -13,6 +13,8 @@
 		CCFAC2BA1C43D02500EBF924 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCFAC2B81C43D02500EBF924 /* Main.storyboard */; };
 		CCFAC2BC1C43D02500EBF924 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCFAC2BB1C43D02500EBF924 /* Assets.xcassets */; };
 		CCFAC2BF1C43D02500EBF924 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCFAC2BD1C43D02500EBF924 /* LaunchScreen.storyboard */; };
+		CCFAC2CB1C43DB7500EBF924 /* the1stViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCFAC2CA1C43DB7500EBF924 /* the1stViewController.m */; };
+		CCFAC2CE1C43DD7300EBF924 /* the2edViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCFAC2CD1C43DD7300EBF924 /* the2edViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		CCFAC2BB1C43D02500EBF924 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CCFAC2BE1C43D02500EBF924 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CCFAC2C01C43D02500EBF924 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCFAC2C91C43DB7500EBF924 /* the1stViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = the1stViewController.h; sourceTree = "<group>"; };
+		CCFAC2CA1C43DB7500EBF924 /* the1stViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = the1stViewController.m; sourceTree = "<group>"; };
+		CCFAC2CC1C43DD7300EBF924 /* the2edViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = the2edViewController.h; sourceTree = "<group>"; };
+		CCFAC2CD1C43DD7300EBF924 /* the2edViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = the2edViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				CCFAC2B31C43D02500EBF924 /* AppDelegate.m */,
 				CCFAC2B51C43D02500EBF924 /* ViewController.h */,
 				CCFAC2B61C43D02500EBF924 /* ViewController.m */,
+				CCFAC2C91C43DB7500EBF924 /* the1stViewController.h */,
+				CCFAC2CA1C43DB7500EBF924 /* the1stViewController.m */,
+				CCFAC2CC1C43DD7300EBF924 /* the2edViewController.h */,
+				CCFAC2CD1C43DD7300EBF924 /* the2edViewController.m */,
 				CCFAC2B81C43D02500EBF924 /* Main.storyboard */,
 				CCFAC2BB1C43D02500EBF924 /* Assets.xcassets */,
 				CCFAC2BD1C43D02500EBF924 /* LaunchScreen.storyboard */,
@@ -150,6 +160,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCFAC2B71C43D02500EBF924 /* ViewController.m in Sources */,
+				CCFAC2CB1C43DB7500EBF924 /* the1stViewController.m in Sources */,
+				CCFAC2CE1C43DD7300EBF924 /* the2edViewController.m in Sources */,
 				CCFAC2B41C43D02500EBF924 /* AppDelegate.m in Sources */,
 				CCFAC2B11C43D02500EBF924 /* main.m in Sources */,
 			);
@@ -261,10 +273,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: dorayo student (93QF9C8P8D)";
 				INFOPLIST_FILE = "test-20160111-01/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.qy15092.test-20160111-01";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "dc360d11-a976-49c8-8f81-a02746935eec";
 			};
 			name = Debug;
 		};
@@ -272,10 +287,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: dorayo student (93QF9C8P8D)";
 				INFOPLIST_FILE = "test-20160111-01/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.qy15092.test-20160111-01";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "dc360d11-a976-49c8-8f81-a02746935eec";
 			};
 			name = Release;
 		};

@@ -13,6 +13,8 @@
 		CC31B1771C412AA100A16CD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC31B1751C412AA100A16CD2 /* Main.storyboard */; };
 		CC31B1791C412AA100A16CD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC31B1781C412AA100A16CD2 /* Assets.xcassets */; };
 		CC31B17C1C412AA100A16CD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC31B17A1C412AA100A16CD2 /* LaunchScreen.storyboard */; };
+		CC31B1841C412B7D00A16CD2 /* 756989486701be5f4db2ed5d46d77535.png in Resources */ = {isa = PBXBuildFile; fileRef = CC31B1831C412B7D00A16CD2 /* 756989486701be5f4db2ed5d46d77535.png */; };
+		CC31B1891C41381700A16CD2 /* 2011021715481789.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC31B1881C41381700A16CD2 /* 2011021715481789.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		CC31B1781C412AA100A16CD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC31B17B1C412AA100A16CD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC31B17D1C412AA100A16CD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC31B1831C412B7D00A16CD2 /* 756989486701be5f4db2ed5d46d77535.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 756989486701be5f4db2ed5d46d77535.png; sourceTree = "<group>"; };
+		CC31B1881C41381700A16CD2 /* 2011021715481789.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2011021715481789.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,8 @@
 		CC31B16C1C412AA100A16CD2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CC31B1881C41381700A16CD2 /* 2011021715481789.jpg */,
+				CC31B1831C412B7D00A16CD2 /* 756989486701be5f4db2ed5d46d77535.png */,
 				CC31B16D1C412AA100A16CD2 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +144,8 @@
 			files = (
 				CC31B17C1C412AA100A16CD2 /* LaunchScreen.storyboard in Resources */,
 				CC31B1791C412AA100A16CD2 /* Assets.xcassets in Resources */,
+				CC31B1891C41381700A16CD2 /* 2011021715481789.jpg in Resources */,
+				CC31B1841C412B7D00A16CD2 /* 756989486701be5f4db2ed5d46d77535.png in Resources */,
 				CC31B1771C412AA100A16CD2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,10 +269,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: dorayo student (93QF9C8P8D)";
 				INFOPLIST_FILE = "test-20160109-01/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.qy15092.test-20160109-01";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "dc360d11-a976-49c8-8f81-a02746935eec";
 			};
 			name = Debug;
 		};
@@ -272,10 +283,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: dorayo student (93QF9C8P8D)";
 				INFOPLIST_FILE = "test-20160109-01/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.qy15092.test-20160109-01";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "dc360d11-a976-49c8-8f81-a02746935eec";
 			};
 			name = Release;
 		};

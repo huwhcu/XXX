@@ -17,6 +17,22 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    [self.view setBackgroundColor:[UIColor grayColor]];
+    
+    UIView *view = [[UIView alloc] init];
+    [view setBackgroundColor:[UIColor redColor]];
+    [self.view addSubview:view];
+    [view setTranslatesAutoresizingMaskIntoConstraints:NO];
+    CGRect viewFrame = CGRectMake(50.f, 100.f, 150.f, 150.f);
+    NSDictionary *views = NSDictionaryOfVariableBindings(self.view, view);
+    NSDictionary *metrics = @{@"left": @(CGRectGetMinX(viewFrame)),
+                              @"top": @(CGRectGetMinY(viewFrame)),
+                              @"width": @(CGRectGetWidth(viewFrame)),
+                              @"height": @(CGRectGetHeight(viewFrame))};
+    
+    [self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|-left-[view(>=width)]" options:0 metrics:metrics views:views]];
+    [self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|-top-[view(>=height)]" options:0 metrics:metrics views:views]];
 }
 
 - (void)didReceiveMemoryWarning {

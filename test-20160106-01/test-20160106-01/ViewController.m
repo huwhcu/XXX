@@ -8,15 +8,32 @@
 
 #import "ViewController.h"
 
+#import <AudioToolbox/AudioToolbox.h>
+
 @interface ViewController ()
+
+@property (nonatomic, assign) SystemSoundID theSound;
 
 @end
 
 @implementation ViewController
 
+- (void)setSystemSound {
+    NSURL *soundURL = [[NSBundle mainBundle] URLForResource:@"tap1" withExtension:@"caf"];
+    
+//    CFURLRef *url = CFBundleCopyResourceURL(CFBundleGetMainBundle(), CFSTR("tap"), CFSTR("caf"), NULL);
+    
+    AudioServicesCreateSystemSoundID((__bridge CFURLRef)(soundURL), &_theSound);
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+}
+
+- (IBAction)theSystemSound:(UIButton *)sender {
+    [self setSystemSound];
+    AudioServicesPlaySystemSound(_theSound);
 }
 
 - (void)didReceiveMemoryWarning {

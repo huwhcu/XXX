@@ -13,6 +13,16 @@
 		CC53E52C1C3BBCAA00A39AC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC53E52A1C3BBCAA00A39AC1 /* Main.storyboard */; };
 		CC53E52E1C3BBCAA00A39AC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC53E52D1C3BBCAA00A39AC1 /* Assets.xcassets */; };
 		CC53E5311C3BBCAA00A39AC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC53E52F1C3BBCAA00A39AC1 /* LaunchScreen.storyboard */; };
+		CC53E5431C3BBDBE00A39AC1 /* SongsInfos.plist in Resources */ = {isa = PBXBuildFile; fileRef = CC53E5391C3BBDBE00A39AC1 /* SongsInfos.plist */; };
+		CC53E5441C3BBDBE00A39AC1 /* 当你老了.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CC53E53A1C3BBDBE00A39AC1 /* 当你老了.jpg */; };
+		CC53E5451C3BBDBE00A39AC1 /* 当你老了.lrc in Resources */ = {isa = PBXBuildFile; fileRef = CC53E53B1C3BBDBE00A39AC1 /* 当你老了.lrc */; };
+		CC53E5461C3BBDBE00A39AC1 /* 当你老了.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC53E53C1C3BBDBE00A39AC1 /* 当你老了.mp3 */; };
+		CC53E5471C3BBDBE00A39AC1 /* 时间都去哪儿了.lrc in Resources */ = {isa = PBXBuildFile; fileRef = CC53E53D1C3BBDBE00A39AC1 /* 时间都去哪儿了.lrc */; };
+		CC53E5481C3BBDBE00A39AC1 /* 时间都去哪儿了.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC53E53E1C3BBDBE00A39AC1 /* 时间都去哪儿了.mp3 */; };
+		CC53E5491C3BBDBE00A39AC1 /* 演员.lrc in Resources */ = {isa = PBXBuildFile; fileRef = CC53E53F1C3BBDBE00A39AC1 /* 演员.lrc */; };
+		CC53E54A1C3BBDBE00A39AC1 /* 演员.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC53E5401C3BBDBE00A39AC1 /* 演员.mp3 */; };
+		CC53E54B1C3BBDBE00A39AC1 /* 红颜劫.lrc in Resources */ = {isa = PBXBuildFile; fileRef = CC53E5411C3BBDBE00A39AC1 /* 红颜劫.lrc */; };
+		CC53E54C1C3BBDBE00A39AC1 /* 红颜劫.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC53E5421C3BBDBE00A39AC1 /* 红颜劫.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +36,16 @@
 		CC53E52D1C3BBCAA00A39AC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC53E5301C3BBCAA00A39AC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC53E5321C3BBCAA00A39AC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC53E5391C3BBDBE00A39AC1 /* SongsInfos.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SongsInfos.plist; sourceTree = "<group>"; };
+		CC53E53A1C3BBDBE00A39AC1 /* 当你老了.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "当你老了.jpg"; sourceTree = "<group>"; };
+		CC53E53B1C3BBDBE00A39AC1 /* 当你老了.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "当你老了.lrc"; sourceTree = "<group>"; };
+		CC53E53C1C3BBDBE00A39AC1 /* 当你老了.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "当你老了.mp3"; sourceTree = "<group>"; };
+		CC53E53D1C3BBDBE00A39AC1 /* 时间都去哪儿了.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "时间都去哪儿了.lrc"; sourceTree = "<group>"; };
+		CC53E53E1C3BBDBE00A39AC1 /* 时间都去哪儿了.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "时间都去哪儿了.mp3"; sourceTree = "<group>"; };
+		CC53E53F1C3BBDBE00A39AC1 /* 演员.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "演员.lrc"; sourceTree = "<group>"; };
+		CC53E5401C3BBDBE00A39AC1 /* 演员.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "演员.mp3"; sourceTree = "<group>"; };
+		CC53E5411C3BBDBE00A39AC1 /* 红颜劫.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "红颜劫.lrc"; sourceTree = "<group>"; };
+		CC53E5421C3BBDBE00A39AC1 /* 红颜劫.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "红颜劫.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +78,9 @@
 		CC53E5201C3BBCAA00A39AC1 /* test-20160105-01 */ = {
 			isa = PBXGroup;
 			children = (
-				CC53E5241C3BBCAA00A39AC1 /* AppDelegate.h */,
-				CC53E5251C3BBCAA00A39AC1 /* AppDelegate.m */,
 				CC53E5271C3BBCAA00A39AC1 /* ViewController.h */,
 				CC53E5281C3BBCAA00A39AC1 /* ViewController.m */,
 				CC53E52A1C3BBCAA00A39AC1 /* Main.storyboard */,
-				CC53E52D1C3BBCAA00A39AC1 /* Assets.xcassets */,
-				CC53E52F1C3BBCAA00A39AC1 /* LaunchScreen.storyboard */,
-				CC53E5321C3BBCAA00A39AC1 /* Info.plist */,
 				CC53E5211C3BBCAA00A39AC1 /* Supporting Files */,
 			);
 			path = "test-20160105-01";
@@ -74,9 +89,32 @@
 		CC53E5211C3BBCAA00A39AC1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CC53E5381C3BBDBE00A39AC1 /* Songs */,
+				CC53E5241C3BBCAA00A39AC1 /* AppDelegate.h */,
+				CC53E5251C3BBCAA00A39AC1 /* AppDelegate.m */,
+				CC53E52D1C3BBCAA00A39AC1 /* Assets.xcassets */,
+				CC53E52F1C3BBCAA00A39AC1 /* LaunchScreen.storyboard */,
+				CC53E5321C3BBCAA00A39AC1 /* Info.plist */,
 				CC53E5221C3BBCAA00A39AC1 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC53E5381C3BBDBE00A39AC1 /* Songs */ = {
+			isa = PBXGroup;
+			children = (
+				CC53E5391C3BBDBE00A39AC1 /* SongsInfos.plist */,
+				CC53E53A1C3BBDBE00A39AC1 /* 当你老了.jpg */,
+				CC53E53B1C3BBDBE00A39AC1 /* 当你老了.lrc */,
+				CC53E53C1C3BBDBE00A39AC1 /* 当你老了.mp3 */,
+				CC53E53D1C3BBDBE00A39AC1 /* 时间都去哪儿了.lrc */,
+				CC53E53E1C3BBDBE00A39AC1 /* 时间都去哪儿了.mp3 */,
+				CC53E53F1C3BBDBE00A39AC1 /* 演员.lrc */,
+				CC53E5401C3BBDBE00A39AC1 /* 演员.mp3 */,
+				CC53E5411C3BBDBE00A39AC1 /* 红颜劫.lrc */,
+				CC53E5421C3BBDBE00A39AC1 /* 红颜劫.mp3 */,
+			);
+			path = Songs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,6 +148,11 @@
 				TargetAttributes = {
 					CC53E51D1C3BBCAA00A39AC1 = {
 						CreatedOnToolsVersion = 7.2;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -136,9 +179,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC53E54A1C3BBDBE00A39AC1 /* 演员.mp3 in Resources */,
+				CC53E5441C3BBDBE00A39AC1 /* 当你老了.jpg in Resources */,
+				CC53E5451C3BBDBE00A39AC1 /* 当你老了.lrc in Resources */,
+				CC53E54B1C3BBDBE00A39AC1 /* 红颜劫.lrc in Resources */,
+				CC53E5461C3BBDBE00A39AC1 /* 当你老了.mp3 in Resources */,
+				CC53E5471C3BBDBE00A39AC1 /* 时间都去哪儿了.lrc in Resources */,
 				CC53E5311C3BBCAA00A39AC1 /* LaunchScreen.storyboard in Resources */,
+				CC53E5491C3BBDBE00A39AC1 /* 演员.lrc in Resources */,
 				CC53E52E1C3BBCAA00A39AC1 /* Assets.xcassets in Resources */,
 				CC53E52C1C3BBCAA00A39AC1 /* Main.storyboard in Resources */,
+				CC53E54C1C3BBDBE00A39AC1 /* 红颜劫.mp3 in Resources */,
+				CC53E5431C3BBDBE00A39AC1 /* SongsInfos.plist in Resources */,
+				CC53E5481C3BBDBE00A39AC1 /* 时间都去哪儿了.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,10 +314,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: dorayo student (93QF9C8P8D)";
 				INFOPLIST_FILE = "test-20160105-01/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.qy15092.test-20160105-01";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "dc360d11-a976-49c8-8f81-a02746935eec";
 			};
 			name = Debug;
 		};
@@ -272,10 +328,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: dorayo student (93QF9C8P8D)";
 				INFOPLIST_FILE = "test-20160105-01/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.qy15092.test-20160105-01";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "dc360d11-a976-49c8-8f81-a02746935eec";
 			};
 			name = Release;
 		};

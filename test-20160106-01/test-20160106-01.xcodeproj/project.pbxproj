@@ -13,6 +13,7 @@
 		CC8CB9631C3CFBC500C4A1E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC8CB9611C3CFBC500C4A1E0 /* Main.storyboard */; };
 		CC8CB9651C3CFBC500C4A1E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC8CB9641C3CFBC500C4A1E0 /* Assets.xcassets */; };
 		CC8CB9681C3CFBC500C4A1E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC8CB9661C3CFBC500C4A1E0 /* LaunchScreen.storyboard */; };
+		CC8CB9711C3D0A9500C4A1E0 /* tap1.caf in Resources */ = {isa = PBXBuildFile; fileRef = CC8CB9701C3D0A9500C4A1E0 /* tap1.caf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		CC8CB9641C3CFBC500C4A1E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC8CB9671C3CFBC500C4A1E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC8CB9691C3CFBC500C4A1E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC8CB9701C3D0A9500C4A1E0 /* tap1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = tap1.caf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 		CC8CB9581C3CFBC400C4A1E0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CC8CB9701C3D0A9500C4A1E0 /* tap1.caf */,
 				CC8CB9591C3CFBC400C4A1E0 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +141,7 @@
 			files = (
 				CC8CB9681C3CFBC500C4A1E0 /* LaunchScreen.storyboard in Resources */,
 				CC8CB9651C3CFBC500C4A1E0 /* Assets.xcassets in Resources */,
+				CC8CB9711C3D0A9500C4A1E0 /* tap1.caf in Resources */,
 				CC8CB9631C3CFBC500C4A1E0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,10 +265,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: dorayo student (93QF9C8P8D)";
 				INFOPLIST_FILE = "test-20160106-01/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.qy15092.test-20160106-01";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "dc360d11-a976-49c8-8f81-a02746935eec";
 			};
 			name = Debug;
 		};
@@ -272,10 +279,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: dorayo student (93QF9C8P8D)";
 				INFOPLIST_FILE = "test-20160106-01/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.qy15092.test-20160106-01";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "dc360d11-a976-49c8-8f81-a02746935eec";
 			};
 			name = Release;
 		};

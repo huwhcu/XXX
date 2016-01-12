@@ -19,6 +19,10 @@
     // Do any additional setup after loading the view.
 }
 
+- (IBAction)theExit:(UIButton *)sender {
+    return exit(0);
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
